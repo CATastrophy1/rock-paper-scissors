@@ -29,8 +29,8 @@ const gameMechanism = () => {
 	else if (player1Hand.textContent === handsArray[0] && player2Hand.textContent === handsArray[2]) score1++
 	else if (player1Hand.textContent === handsArray[1] && player2Hand.textContent === handsArray[0]) score1++
 	else if (player1Hand.textContent === handsArray[1] && player2Hand.textContent === handsArray[2]) score2++
-	else if (player1Hand.textContent === handsArray[2] && player2Hand.textContent === handsArray[0]) score1++
-	else if (player1Hand.textContent === handsArray[2] && player2Hand.textContent === handsArray[1]) score2++
+	else if (player1Hand.textContent === handsArray[2] && player2Hand.textContent === handsArray[0]) score2++
+	else if (player1Hand.textContent === handsArray[2] && player2Hand.textContent === handsArray[1]) score1++
 
 player1Score.textContent=score1
 player2Score.textContent=score2
